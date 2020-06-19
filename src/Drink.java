@@ -5,31 +5,22 @@ public class Drink {
     private Double price;
     private boolean containsAlcohol;
 
-    Drink() {
-
+    Drink(String drink, Double price, boolean containsAlcohol) {
+        this.drink = drink;
+        this.price = price;
+        this.containsAlcohol = containsAlcohol;
     }
 
     public String getDrink() {
         return drink;
     }
 
-    public void setDrink(String drink) {
-        this.drink = drink;
-    }
-
     public Double getPrice() {
         return price;
-    }
-
-    public void setPrice(Double price) {
-        this.price = price;
     }
 
     public boolean isContainsAlcohol() {
         return containsAlcohol;
     }
 
-    public void setContainsAlcohol(boolean containsAlcohol) {
-        this.containsAlcohol = containsAlcohol;
-    }
 }
