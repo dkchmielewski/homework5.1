@@ -15,7 +15,7 @@ public class Drink {
         return drink;
     }
 
-    public Double getPrice() {
+    public double getPrice() {
         return price;
     }
 
