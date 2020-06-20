@@ -2,10 +2,10 @@ import org.w3c.dom.ls.LSOutput;
 
 public class Drink {
     private String drink;
-    private Double price;
+    private double price;
     private boolean containsAlcohol;
 
-    Drink(String drink, Double price, boolean containsAlcohol) {
+    Drink(String drink, double price, boolean containsAlcohol) {
         this.drink = drink;
         this.price = price;
         this.containsAlcohol = containsAlcohol;
